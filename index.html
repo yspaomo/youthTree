@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="static/css/reset.css" />
+
+		<title>青春树</title>
+	</head>
+
+	<body>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+
+	</body>
+	<script type="text/javascript" src="static/js/sosh.js"></script>
+	<script>
+		var href = location.href;
+		sosh('#soshid', {
+			// 分享的链接，默认使用location.href
+			url: href,
+			// 分享的标题，默认使用document.title
+			title: '青春树',
+			// 分享的摘要，默认使用<meta name="description" content="">content的值
+			digest: '青春树,健康环保漆',
+			// 分享的图片，默认获取本页面第一个img元素的src
+			pic: 'static/img/logo.jpg',
+			// 选择要显示的分享站点，顺序同sites数组顺序，
+			// 支持设置的站点有weixin,yixin,weibo,qzone,tqq,douban,renren,tieba
+			sites: ['weixin', 'qzone', 'weibo']
+		})
+	</script>
+
+</html>

@@ -1,0 +1,94 @@
+* {
+	margin: auto;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	max-width: 1360px;
+	overflow-x: hidden;
+}
+
+img {
+	border: 0;
+}
+
+input[type="checkbox"] {
+	border: 0;
+}
+
+a {
+	color: #d70404;
+	text-decoration: none;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.noborder-t {
+	border-top: 0 !important;
+}
+
+.noborder-b {
+	border-bottom: 0 !important;
+}
+
+.noborder-l {
+	border-left: 0 !important;
+}
+
+.noborder-r {
+	border-right: 0 !important;
+}
+
+.el-table {
+	width: 100%;
+}
+
+.el-table tr {
+	background: #e2e2e2;
+}
+
+.el-table tr:nth-child(2n+1) {
+	background: #f2f2f2;
+}
+
+.el-table th {
+	font-size: 15px;
+	text-align: center;
+	background: #e2e2e2;
+	border-right: 1px solid #fff;
+	padding: 18px 0;
+	color: #fff;
+}
+
+.el-table td {
+	border-right: 1px solid #fff;
+	font-size: 14px;
+	text-align: center;
+	border-top: 1px solid #FFFFFF;
+	color: #444;
+}
+
+.el-table td:last-child,
+.el-table th:last-child {
+	border-right: 0;
+}
+
+.sosh-item {
+	margin: 0 6px !important;
+}
+
+.sosh {
+	float: left;
+}
+
+.sosh-item-icon {
+	width: 17px !important;
+	height: 17px !important;
+}
